@@ -14,7 +14,7 @@ fun main() {
 
     print(n2)
 
-    println(8.toFloat()) //converte int e float
+    println(8.toFloat()) //converte int em float
     println(1034)
 
     var nome:String = "Pablo" //var é uma variavel e pode mudar o valor.
@@ -23,4 +23,19 @@ fun main() {
     var numGrande:Long = 5_000_000L
 
     println("Olá, meu nome é $nome, minha idade é $idade, meu peso é $peso e tenho R$$numGrande no banco.")
+
+    println("Máximo: " + Short.MAX_VALUE)
+    println("Mínimo: " + Short.MIN_VALUE)
+    println("Tamanho: " + Short.SIZE_BYTES + "bytes")
+
+    println(nome.length)
+
+    var x:Int = 10
+    var y = 20
+
+    println(y is Int) //verifica se é int
+
+    var n:Any //recebe qualquer valor
+    n = 20
+    n = "Estudonauta"
 }
